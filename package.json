@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass --watch /SASS/style.scss /assets/CSS/style.css"
+    "start": "sass --watch ./SASS/style.scss ./assets/CSS/style.css"
   },
   "author": "Pierre Antoniutti",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
 }
